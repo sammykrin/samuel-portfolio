@@ -3,7 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope, faLaptop, faLeaf, faX } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -25,17 +26,17 @@ const Sidebar = () => (
         <ul>
             <li>
                 <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/samuel-olamilehin-984888250/'>
-                    <FontAwesomeIcon icon ={faLeaf} color="#4d4d4e" />
+                    <FontAwesomeIcon icon ={faLinkedin} color="#4d4d4e" />
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href='https://github.com/sammykrin/'>
-                    <FontAwesomeIcon icon ={faLaptop} color="#4d4d4e" />
+                    <FontAwesomeIcon icon ={faGithub} color="#4d4d4e" />
                 </a>
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href='https://twitter.com/Olapapzy/'>
-                    <FontAwesomeIcon icon ={faX} color="#4d4d4e" />
+                    <FontAwesomeIcon icon ={faTwitter} color="#4d4d4e" />
                 </a>
             </li>
         </ul>
