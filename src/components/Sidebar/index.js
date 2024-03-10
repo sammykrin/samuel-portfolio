@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => (
@@ -36,7 +36,7 @@ const Sidebar = () => (
             </li>
             <li>
                 <a target="_blank" rel="noreferrer" href='https://twitter.com/Olapapzy/'>
-                    <FontAwesomeIcon icon ={faTwitter} color="#4d4d4e" />
+                    <FontAwesomeIcon icon ={faXTwitter} color="#4d4d4e" />
                 </a>
             </li>
         </ul>
